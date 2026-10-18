@@ -155,4 +155,4 @@ The test builds a synthetic three-project workpaper set in a temporary directory
 
 ## License
 
-MIT. Ratio formulas adapted from anthropics/claude-cookbooks (MIT); see attribution above.
+MIT. Ratio formulas adapted from anthropics/claude-cookbooks (MIT); see [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).

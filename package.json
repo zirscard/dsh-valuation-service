@@ -15,7 +15,8 @@
     "SKILL.md",
     "README.md",
     "cordis.patch.yml",
-    "LICENSE"
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
   ],
   "dsh": {
     "bundle": {
