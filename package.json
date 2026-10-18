@@ -1,0 +1,46 @@
+{
+  "name": "dsh-valuation-service",
+  "version": "0.1.0",
+  "description": "Registers one valuation_service tool that turns 01/02/04 workpaper JSON into one unified schema: six ratio groups, forecast ratios, DCF input slots with missing markers, comparable PS/PE and IRR. Deterministic; missing inputs stay blank.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "runner.js",
+    "core/",
+    "SKILL.md",
+    "README.md",
+    "cordis.patch.yml",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zirscard/dsh-valuation-service.git"
+  },
+  "homepage": "https://github.com/zirscard/dsh-valuation-service#readme",
+  "bugs": {
+    "url": "https://github.com/zirscard/dsh-valuation-service/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "valuation",
+    "dcf",
+    "comparable",
+    "irr",
+    "financial-analysis"
+  ]
+}

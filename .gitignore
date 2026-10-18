@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated outputs
+valuations-service.json
+test/test-output/
+
+# macOS
+.DS_Store

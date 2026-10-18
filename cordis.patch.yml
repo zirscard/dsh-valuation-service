@@ -1,0 +1,4 @@
+# dsh-valuation-service bundle patch: one host-only row (agent tool + prompt section).
+- insert:
+    - id: dsh-valuation-service
+      name: dsh-valuation-service
